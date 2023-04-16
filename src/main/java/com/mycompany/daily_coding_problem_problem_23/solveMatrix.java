@@ -51,7 +51,7 @@ public class solveMatrix{
     
     
    public void search(int row, int col, int numSteps){
-       if(numSteps > leastSteps && leastSteps > 0){
+       if(numSteps >= leastSteps && leastSteps > 0){
            return;
        }
         
